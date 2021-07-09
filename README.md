@@ -52,9 +52,9 @@ If you have tensorflow installed, you can see tensorboard logs in `./checkpoints
 #!./scripts/train_512p_multigpu.sh
 python train.py --name colon2depth_512p --batchSize 8 --gpu_ids 1,2 --label_nc 0 --no_instance --tf_log --no_vgg_loss --continue_train```
 Note: this is not tested and we trained our model using single GPU only. Please use at your own discretion.
+```
 
-## Citation
-
+### Citation
 If you find this useful for your research, please use the following.
 
 ```
