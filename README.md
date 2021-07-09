@@ -58,7 +58,8 @@ Note: this is not tested and we trained our model using single GPU only. Please 
 If you find this useful for your research, please use the following.
 
 ```
-TBD
+Kai. Cheng, Yiting. Ma, Yang. Li, Bin. Sun and Xuejin. Chen. "Depth Estimation for Colonoscopy Images with
+Self-supervised Learning from Videos", Medical Image Computing and Computer Assisted Intervention Society, 2021
 ```
 
 ## Acknowledgments
