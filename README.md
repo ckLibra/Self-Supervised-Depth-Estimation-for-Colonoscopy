@@ -3,7 +3,7 @@
 Depth estimation in colonoscopy images provides geometric
 clues for downstream medical analysis tasks, such as polyp detection,
 3D reconstruction, and diagnosis. Recently, deep learning technology
-has made signicant progress in monocular depth estimation for nat-
+has made significant progress in monocular depth estimation for nat-
 ural scenes. However, without sufficient ground truth of dense depth
 maps for colonoscopy images, it is signicantly challenging to train deep
 neural networks for colonoscopy depth estimation. In this paper, we pro-
