@@ -26,6 +26,9 @@ more accurate and consistent depth estimation for colonoscopy images.
 - Python 3, pytorch1.4
 - NVIDIA GPU (11G memory or larger) + CUDA cuDNN
 
+## Plan
+We will clean the code and write more detailed instruction soon. 
+
 ### Testing
 - Test the model (`bash ./scripts/test.sh`):
 ```bash
