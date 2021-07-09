@@ -40,21 +40,11 @@ python syn_test.py --name colon2depth_512p --no_instance --label_nc 0
 - For synthetic data, you can download from http://cmic.cs.ucl.ac.uk/ColonoscopyDepth/.
 - For real dataset, you can download from https://github.com/dashishi/LDPolypVideo-Benchmark. This is our raw data, the data used for training is the subset of it. We crop the raw image to remove the black corner.
 
-### Training
-- Train a model at 512 x 512 resolution (`bash ./scripts/train.sh`):
-```bash
-#!./scripts/train_512p.sh
-python train.py --name label2city_512p
-```
-- To view training results, please checkout intermediate results in `./checkpoints/label2city_512p/web/index.html`.
-If you have tensorflow installed, you can see tensorboard logs in `./checkpoints/label2city_512p/logs` by adding `--tf_log` to the training scripts.
-
 ### Multi-GPU training
-- Train a model using multiple GPUs (`bash ./scripts/train_512p_multigpu.sh`):
+- Train a model using multiple GPUs (`bash ./scripts/train.sh`):
 ```bash
-#!./scripts/train_512p_multigpu.sh
+#!./scripts/train.sh
 python train.py --name colon2depth_512p --batchSize 8 --gpu_ids 1,2 --label_nc 0 --no_instance --tf_log --no_vgg_loss --continue_train```
-Note: this is not tested and we trained our model using single GPU only. Please use at your own discretion.
 ```
 
 ### Citation
