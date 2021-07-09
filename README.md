@@ -1,6 +1,3 @@
-
-<br><br><br><br>
-
 # Depth Estimation for Colonoscopy Images with Self-supervised Learning from Videos
 ## Abstract
 Depth estimation in colonoscopy images provides geometric
